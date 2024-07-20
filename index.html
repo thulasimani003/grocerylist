@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Grocery Store</h1>
+            <nav>
+                <ul>
+                    <li><a href="#fruits">Fruits</a></li>
+                    <li><a href="#vegetables">Vegetables</a></li>
+                    <li><a href="#dairy">Dairy</a></li>
+                    <li><a href="#bakery">Bakery</a></li>
+                    <li><a href="#cart">Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="fruits">
+        <div class="container">
+            <h2>Fruits</h2>
+            <div class="item">
+                <img src="images/apple.jpg" alt="Apple">
+                <h3>Apple</h3>
+                <p>$1.99 / kg</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="images/bananas-royalty-free-image-1702061943.jpg" alt="Banana">
+                <h3>Banana</h3>
+                <p>$0.99 / kg</p>
+                <button>Add to Cart</button>
+            </div>
+        
+        </div>
+    </section>
+
+    <section id="vegetables">
+        <div class="container">
+            <h2>Vegetables</h2>
+            <div class="item">
+                <img src="images/carrots.png" alt="Carrot">
+                <h3>Carrot</h3>
+                <p>$0.79 / kg</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="images/Tomato_je.jpg" alt="Tomato">
+                <h3>Tomato</h3>
+                <p>$1.29 / kg</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="dairy">
+        <div class="container">
+            <h2>Dairy</h2>
+            <div class="item">
+                <img src="images/images.jpg" alt="Milk">
+                <h3>Milk</h3>
+                <p>$2.49 / liter</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="images/cheese.jpg" alt="Cheese">
+                <h3>Cheese</h3>
+                <p>$3.99 / 200g</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="bakery">
+        <div class="container">
+            <h2>Bakery</h2>
+            <div class="item">
+                <img src="images/bread.jpg" alt="Bread">
+                <h3>Bread</h3>
+                <p>$1.99 / loaf</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="item">
+                <img src="images/cakes.jpg"Cake>
+                <h3>Cake</h3>
+                <p>$12.99 / cake</p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="cart">
+        <div class="container">
+            <h2>Shopping Cart</h2>
+            <div id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+            </div>
+            <button onclick="checkout()">Checkout</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Grocery Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
